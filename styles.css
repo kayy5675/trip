@@ -1,0 +1,61 @@
+h1 {
+  color: #0D4C92;
+font-size: 60px;
+font-style:  oblique;
+font-weight:  bolder;
+}
+
+h2{
+  color:#59C1BD;
+  font-size: 40px;
+  font-style:  oblique;
+  font-weight:   bold;
+}
+
+h3{
+  color:#59C1BD;
+  font-size: 40px;
+  font-style:  oblique;
+  font-weight:  bold;
+}
+
+h4{
+  color:black;
+  font-size: 30px;
+  font-style:  italic;
+  font-weight:  lighter;
+}
+
+body {
+  background-color: #BCEAD5;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #DEF5E5;
+  border-width: 1px;
+  width: 4%;
+}
+
+img {
+  height: 260px;
+  border-radius: 100%;
+}
+
+/*class selectors */
+.first:hover {
+  transform: rotate(15deg) scale(1.5);
+  transition: .3s ease-in-out;
+}
+.second:hover{
+transform:rotate(15deg)scale(1.5);
+transition: .3s ease-in-out
+}
+
+
+.third:hover{
+  transform: rotate(15deg)scale(1.5);
+  transition: .3s ease-in-out;
+
+}
